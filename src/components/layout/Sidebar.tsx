@@ -15,7 +15,6 @@ export const Sidebar = ({ onMenuSelect, activeMenu }: SidebarProps) => {
     { id: "home", label: "Dashboard", icon: <Home className="h-5 w-5" /> },
     { id: "vehicles", label: "Veículos", icon: <Car className="h-5 w-5" /> },
     { id: "customers", label: "Clientes", icon: <Users className="h-5 w-5" /> },
-    { id: "sales", label: "Vendas", icon: <ShoppingCart className="h-5 w-5" /> },
   ];
 
   return (
